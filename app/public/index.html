@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WebGuard SOC Lab</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 80px auto;
+            padding: 40px;
+            background: #1e293b;
+            border-radius: 16px;
+        }
+
+        h1 {
+            color: #5eead4;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 8px 14px;
+            background: #14532d;
+            color: #bbf7d0;
+            border-radius: 20px;
+        }
+
+        code {
+            color: #93c5fd;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <div class="status">Webserver Online</div>
+
+        <h1>WebGuard SOC Lab</h1>
+
+        <p>
+            Website demo dùng để thu thập log và mô phỏng
+            hệ thống giám sát an ninh SOC.
+        </p>
+
+        <p>
+            Luồng hoạt động:
+            <code>Nginx → Wazuh SIEM → Shuffle SOAR → Analyst Case</code>
+        </p>
+    </main>
+</body>
+</html>
